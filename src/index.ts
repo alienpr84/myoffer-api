@@ -1,6 +1,3 @@
-const sum = (numbers: number[]): number =>
-  numbers.reduce((acumulator, number) => (acumulator += number));
+import sum from './utils/sum';
 
 console.log(sum([3, 4, 1, 8]));
-
-let a;
